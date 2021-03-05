@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 
 const CharacterProfile = ({characters}) => {
     const { id } = useParams();
-    console.log(characters);
     const character = characters[id];
     return (
         <>
